@@ -7,3 +7,33 @@
   font-family: manga;
   font-size: 20px;
 }
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: url("../assets/background/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+}
+
+button:focus-visible {
+  outline: 1px solid rgb(233, 67, 45);
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.App,
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
