@@ -1,0 +1,6 @@
+.d-block{display:block!important;}
+.d-grid{display:grid !important;}
+.d-none{display:none !important;}
+.align-self-end{align-self: flex-end;}
+.justify-self-end{justify-self: end}
+.ml-auto{margin-left: auto}
