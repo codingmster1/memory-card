@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "framer-motion": "^10.16.4",
+    "nanoid": "^5.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-howler": "^5.2.0",
+    "react-parallax-tilt": "^1.7.172",
     "sass-loader": "^13.3.2",
     "uniqid": "^5.4.0",
     "use-sound": "^4.0.1"
@@ -26,6 +28,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "sass": "^1.69.5",
     "vite": "^4.4.5"
   }
 }

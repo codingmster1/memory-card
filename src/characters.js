@@ -3,7 +3,7 @@ import guts from './assets/guts-GA.webp';
 import casca from './assets/casca-GA.png';
 import griffith from './assets/Griffith_Card_GA.webp';
 import zodd from './assets/zodd-fly.png';
-import Void from './assets/Void.webp';
+import Void from './assets/void.webp';
 import slan from './assets/slan.png';
 import conrad from './assets/Conrad_Manga.webp';
 import count from './assets/count.webp';
