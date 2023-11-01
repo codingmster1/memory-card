@@ -24,16 +24,16 @@ const CardContainer = ({ updateCurrentCards, highScore, nextLevel, level }) => {
         { name: 'Puck', link: './assets/puck.png' },
         { name: 'Snake Apostle', link: './assets/snake-apostle.jpg' },
         { name: 'Wylad', link: './assets/Wylad.webp' },
-        { name: 'Farnese', link: 'assets/' },
-        { name: 'Isidoro', link: './assets/' },
-        { name: 'Rickert', link: './assets/' },
-        { name: 'Serpico', link: './assets/' },
-        { name: 'Schreike', link: './assets/' },
-        { name: 'Rodrick', link: './assets/' },
-        { name: 'Guts Armor', link: './assets/' },
-        { name: 'Casca Eclipse', link: './assets/' },
-        { name: 'Griffith Eclipse', link: './assets/' },
-        { name: 'Zodd Flying', link: '' }
+        { name: 'Farnese', link: 'assets/Farnese_Manga.webp' },
+        { name: 'Isidoro', link: './assets/Isidro.webp' },
+        { name: 'Rickert', link: './assets/Rickert-Manga.webp' },
+        { name: 'Serpico', link: './assets/Serpico_wind.webp' },
+        { name: 'Schreike', link: './assets/schreike.png' },
+        { name: 'Rodrick', link: './assets/rodrick.jpg' },
+        { name: 'Guts Armor', link: './assets/berserk-guts-armor.png' },
+        { name: 'Casca Eclipse', link: './assets/casca-BS.png' },
+        { name: 'Griffith Eclipse', link: './assets/Griffith.png' },
+        { name: 'Zodd Flying', link: './assets/zodd-fly.png' }
     ]
 
     const [cards, setCards] = useState(possibleCards.slice(0, level));
