@@ -5,7 +5,7 @@ import griffith from './assets/Griffith_Card_GA.webp';
 import pippin from './assets/Pippin_Manga.webp';
 import judea from './assets/judea1.webp';
 import zodd from './assets/zodd-fly.png';
-import wylad from './assets/Wylad.webp';
+import wyald from './assets/Wyald.webp';
 import rickert from './assets/Rickert-Manga.webp';
 import silat from './assets/Silat07.webp';
 import skullknight from './assets/skull-knight.jpg';
@@ -77,8 +77,8 @@ const berserkCharacters = [
     },
     {
         id: uniqid(),
-        name: "wylad",
-        src: wylad,
+        name: "wyald",
+        src: wyald,
         clicked: false
     },
     {
