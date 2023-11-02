@@ -36,6 +36,7 @@ import gutsBlackSword from './assets/Guts_Berserker_Manga.webp';
 import casca2 from './assets/casca-2.png';
 import monarch from './assets/monarch.jpg';
 import molda from './assets/molda.jpg';
+import godot from './assets/Godot.webp';
 
 const berserkCharacters = [
     {
@@ -258,6 +259,12 @@ const berserkCharacters = [
         id: uniqid(),
         name: "molda",
         src: molda,
+        clicked: false
+    },
+    {
+        id: uniqid(),
+        name: "godot",
+        src: godot,
         clicked: false
     },
 
