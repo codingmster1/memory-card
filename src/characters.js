@@ -34,6 +34,8 @@ import locus from './assets/locus.png';
 import ganishka from './assets/ganishka.jpeg';
 import gutsBlackSword from './assets/Guts_Berserker_Manga.webp';
 import casca2 from './assets/casca-2.png';
+import monarch from './assets/monarch.jpg';
+import molda from './assets/molda.jpg';
 
 const berserkCharacters = [
     {
@@ -244,6 +246,18 @@ const berserkCharacters = [
         id: uniqid(),
         name: "casca",
         src: casca2,
+        clicked: false
+    },
+    {
+        id: uniqid(),
+        name: "monarch",
+        src: monarch,
+        clicked: false
+    },
+    {
+        id: uniqid(),
+        name: "molda",
+        src: molda,
         clicked: false
     },
 
