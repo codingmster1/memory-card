@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "manga";
+    src: url('Manga.ttf'),
+        url('Manga.ttf') format('tff');
+}
+
+@keyframes gameOverAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.gameOver {
+    /*background-color: rgba(0, 0, 0, 0.7);*/
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: gameOverAnimation 1s ease;
+}
+
+.gameOverImgContainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 20px;
+}
+
+.win {
+    width: 50em;
+    height: 30em;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 15px white, 0 0 15px white;
+    border-radius: 20px;
+}
+
+.win p {
+    height: 3em;
+    width: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 6, 6);
+    color: white;
+    font-family: "manga";
+    font-size: 1.8em;
+    border-radius: 20px;
+}
+
+.gameOverImgContainer img {
+    width: 50em;
+    height: 30em;
+    border-radius: 20px;
+    box-shadow: 53, 6, 6 red, 53, 6, 6 red;
+}
+
+.restartBtn {
+    position: absolute;
+    bottom: 5%;
+    background-color: #ffffff;
+    color: black;
+    font-family: "manga";
+    font-size: 1.3em;
+    padding: 0.6em 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: transform 0.25s ease-out;
+}
+
+.restartBtn:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 500px) {
+    .gameOver {
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        animation: gameOverAnimation 1s ease;
+    }
+
+    .gameOverImgContainer {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        border-radius: 20px;
+    }
+
+    .win {
+        width: 20em;
+        height: 13em;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0 0 15px white, 0 0 15px white;
+        border-radius: 20px;
+    }
+
+    .win p {
+        height: 2em;
+        width: 6em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: white;
+        font-family: "manga";
+        font-size: 1.2em;
+        border-radius: 20px;
+    }
+
+    .gameOverImgContainer img {
+        width: 20em;
+        height: 13em;
+        border-radius: 20px;
+        box-shadow: 0 0 15px red, 0 0 15px red;
+    }
+
+    .restartBtn {
+        position: absolute;
+        bottom: 5%;
+        background-color: #ffffff;
+        color: black;
+        font-family: "manga";
+        font-size: 1em;
+        padding: 0.3em 0.8em;
+        border: none;
+        cursor: pointer;
+        border-radius: 20px;
+        transition: transform 0.25s ease-out;
+    }
+
+    .restartBtn:hover {
+        transform: scale(1.1);
+    }
+}
