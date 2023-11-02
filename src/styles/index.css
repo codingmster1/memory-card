@@ -11,9 +11,7 @@
 
 
  body {
-  background: url("../assets/background/background.jpg") no-repeat center center fixed;
-  background-size: cover;
-  margin: 0;
-}
-
-
+   background: url("../assets/eclipse-bg.jpg") no-repeat center center fixed;
+   background-size: cover;
+   margin: 0;
+ }
