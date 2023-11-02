@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'manga';
+    src: url('Manga.ttf'),
+        url('Manga.ttf') format('tff');
+}
+
+@keyframes headerAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    animation: headerAnimation 1s ease;
+}
+
+.headerLogoContainer {
+    margin: 1em;
+}
+
+.headerLogoContainer .logo {
+    width: 5em;
+    cursor: pointer;
+}
+
+.scoreContainer {
+    background-color: #b66363;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "manga";
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 10em;
+    padding: 0.1em 0.7em;
+    margin: 1em;
+    box-shadow: 0 0 15px rgb(228, 206, 206), 0 0 15px rgba(228, 206, 206);
+    border-radius: 20px;
+}
+
+.scoreContainer p {
+    margin: 0.2em;
+}
+
+@media only screen and (max-width: 500px) {
+    .header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        animation: headerAnimation 1s ease;
+    }
+
+    .headerLogoContainer {
+        margin: 1em;
+    }
+
+    .headerLogoContainer .logo {
+        width: 5em;
+        cursor: pointer;
+    }
+
+    .scoreContainer {
+        background-color: #b66363;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-family: "manga";
+        font-size: 1.2em;
+        font-weight: bold;
+        width: 7em;
+        padding: 0.1em 0.7em;
+        margin: 1em;
+        box-shadow: 0 0 15px rgba(228, 206, 206), 0 0 15px rgba(228, 206, 206);
+        border-radius: 20px;
+    }
+
+    .scoreContainer p {
+        margin: 0.2em;
+    }
+}
