@@ -1,0 +1,33 @@
+@keyframes footerAnimation {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    bottom: 0;
+    animation: footerAnimation 0.5s ease;
+}
+
+.footerBtn {
+    margin: 1em;
+    background-color: #fdf8bc;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    padding: 0.6em 0.8em;
+    cursor: pointer;
+    transition: transform 0.25s;
+}
+
+.footerBtn:hover {
+    transform: scale(1.1);
+}
