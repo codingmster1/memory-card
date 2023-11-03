@@ -4,14 +4,19 @@
         url('Manga.ttf') format('tff');
 }
 
+
+
+
+
+
 @media only screen and (min-width: 500px) {
     .tilt {
         margin: 0.8em;
     }
 
     .card {
-        height: 20em;
-        width: 14em;
+        height: 14em;
+        width: 10em;
         perspective: 1000px;
         cursor: pointer;
     }
@@ -45,7 +50,7 @@
     .cardFront p {
         color: black;
         font-family: "manga";
-        font-size: 1.2em;
+        font-size: 0.9em;
         margin-top: 0;
         margin-bottom: 0.2em;
     }
