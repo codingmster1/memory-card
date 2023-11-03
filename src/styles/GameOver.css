@@ -64,18 +64,20 @@
 }
 
 .restartBtn {
-    margin: 0.5em;
+    margin: 0.7em;
     position: absolute;
     bottom: 5%;
     background-color: #ffffff;
     color: black;
     font-family: "manga";
-    font-size: 2.0em;
-    padding: 0.6em 1em;
+    font-size: 1.8em;
+    padding: 0.8em 1.0em;
     border: 1px solid transparent;
     cursor: pointer;
-    border-radius: 25px;
+    border-radius: 30px;
     transition: transform 0.25s ease-out;
+
+
 }
 
 .restartBtn:hover {
