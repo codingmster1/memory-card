@@ -80,8 +80,8 @@
     }
 
     .card {
-        height: 12em;
-        width: 9em;
+        height: 8em;
+        width: 6em;
         perspective: 1000px;
         cursor: pointer;
     }
@@ -115,7 +115,7 @@
     .cardFront p {
         color: black;
         font-family: "manga";
-        font-size: 1em;
+        font-size: 0.5em;
         margin-top: 0;
         margin-bottom: 0.2em;
     }
