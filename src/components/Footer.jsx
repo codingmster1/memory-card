@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
 import "../styles/Footer.css";
-import MusicOnIcon from "../assets/sound_on.png";
-import MusicOffIcon from "../assets/sound-off.png";
-import SoundOnIcon from "../assets/volumeon.jpg";
-import SoundOffIcon from "../assets/volumeoff.jpg";
-import helpIcon from "../assets/question-logo.png";
-import closeIcon from "../assets/close-x.png";
+import MusicOnIcon from "../assets/icons8-music.png";
+import MusicOffIcon from "../assets/icons8-music-off.png";
+import SoundOnIcon from "../assets/icons8-sound_on.png";
+import SoundOffIcon from "../assets/icons8-sound_off.png";
+import helpIcon from "../assets/icons8-question-mark.png";
+import closeIcon from "../assets/icons8-cancel.png";
 
 export default function Footer({
     props: {

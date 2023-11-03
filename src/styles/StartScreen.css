@@ -22,12 +22,12 @@
 }
 
 .startScreen .logoContainer {
-    margin-bottom: 3em;
+    margin-bottom: 2px;
 }
 
 .startScreen .logoContainer .logo {
-    width: 25em;
-    height: 25em;
+    width: 35em;
+    height: 20em;
 }
 
 .startScreen .levelBtnsContainer .levelBtn {

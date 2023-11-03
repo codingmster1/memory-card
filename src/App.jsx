@@ -9,8 +9,6 @@ import Help from './components/Help'
 import Header from './components/Header'
 import GameScreen from './screens/GameScreen'
 import './styles/App.css';
-import './styles/font.css';
-import "./styles/index.css";
 import { berserkCharacters } from './characters';
 
 
