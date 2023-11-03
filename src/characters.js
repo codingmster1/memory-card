@@ -8,7 +8,7 @@ import zodd from './assets/zodd-fly.png';
 import wyald from './assets/Wyald.webp';
 import rickert from './assets/Rickert-Manga.webp';
 import silat from './assets/Silat07.webp';
-import skullknight from './assets/skull-knight.jpg';
+import skullknight from './assets/skull_knight.webp';
 import viod from './assets/void.webp';
 import slan from './assets/slan.png';
 import femto from './assets/femto1.png';
