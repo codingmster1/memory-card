@@ -4,7 +4,7 @@ import MusicOnIcon from "../assets/icons8-music.png";
 import MusicOffIcon from "../assets/icons8-music-off.png";
 import SoundOnIcon from "../assets/icons8-sound_on.png";
 import SoundOffIcon from "../assets/icons8-sound_off.png";
-import helpIcon from "../assets/icons8-question-mark.png";
+import helpIcon from "../assets/icons8_question_mark.png";
 import closeIcon from "../assets/icons8-cancel.png";
 
 export default function Footer({

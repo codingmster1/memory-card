@@ -13,9 +13,12 @@ export default function GameOver({
         <div className="gameOver">
             <div className="gameOverImgContainer">
                 {gameStatus === "win" && (
+
                     <div className="win">
+
                         <p>You win!</p>
                     </div>
+
                 )}
 
                 {gameStatus === "lose" && (

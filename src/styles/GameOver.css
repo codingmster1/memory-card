@@ -72,7 +72,7 @@
     font-family: "manga";
     font-size: 2.0em;
     padding: 0.6em 1em;
-    border: none;
+    border: 1px solid transparent;
     cursor: pointer;
     border-radius: 25px;
     transition: transform 0.25s ease-out;
