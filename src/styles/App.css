@@ -1,7 +1,7 @@
 @font-face {
     font-family: "manga";
-    src: url('Manga.ttf'),
-        url('Manga.ttf') format('tff');
+    src: url('../assets/fonts/Manga.ttf'),
+        /*url('Manga.ttf') format('tff');*/
 }
 
 
