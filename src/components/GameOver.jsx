@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import "../styles/GameOver.css"
 import gameOverImg from "../assets/gameoverscreen.webp";
+import gameWinImg from '../assets/Guts-Kill-Griffith.jpg'
 
 export default function GameOver({
     props: {
@@ -13,11 +14,13 @@ export default function GameOver({
         <div className="gameOver">
             <div className="gameOverImgContainer">
                 {gameStatus === "win" && (
+                    <img src={gameWinImg} alt="Game over img" />
 
-                    <div className="win">
+
+                    /*<div className="win">
 
                         <p>You win!</p>
-                    </div>
+                    </div>*/
 
                 )}
 
