@@ -40,3 +40,33 @@
     margin: 1em;
     border-radius: 12px;
 }
+
+@media only screen and (max-width: 768px) {
+    .hintContainer {
+        right: 4.5em;
+        bottom: 1em;
+        width: 16em;
+
+    }
+
+    .hint {
+        padding: 0.1em 0.8em;
+        margin: 0.8em;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .hintContainer {
+        right: 4.5em;
+        bottom: 1em;
+        width: 10em;
+
+    }
+
+    .hint {
+        padding: 0.1em 0.8em;
+        margin: 0.5em;
+        border-radius: 5px;
+    }
+}

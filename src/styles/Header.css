@@ -54,7 +54,7 @@
     margin: 0.2em;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
     .header {
         width: 100%;
         display: flex;

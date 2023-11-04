@@ -84,7 +84,7 @@
     transform: scale(1.1);
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
     .gameOver {
         background-color: rgba(0, 0, 0, 0.7);
         position: absolute;
@@ -120,8 +120,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: white;
-        color: white;
+        background-color: rgb(224, 63, 63);
+        color: black;
         font-family: "manga";
         font-size: 1.2em;
         border-radius: 20px;
