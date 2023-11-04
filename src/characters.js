@@ -19,7 +19,22 @@ import schreike from './assets/Schierke_Render.webp';
 import isidro from './assets/Isidro.webp';
 import serpico from './assets/Serpico_wind.webp';
 import farnese from './assets/Farnese_Manga.webp';
-
+import godot from './assets/Godot.webp';
+import grunbeld from './assets/Grunbeld.webp';
+import irvine from './assets/Irvine_Manga.webp';
+import monarch from './assets/monarch.jpg';
+import rodrick from './assets/rodrick.jpg';
+import ganishka from './assets/ganishka.jpeg';
+import molda from './assets/molda.jpg';
+import locus from './assets/locus.png';
+import rakshas from './assets/rakshas.webp';
+import corkus from './assets/corkus.png';
+import conrad from './assets/Conrad_Manga.webp';
+import ubik from './assets/Ubik.webp';
+import rosine from './assets/rosine.jpeg';
+import snakeLord from './assets/snake-lord.webp';
+import count from './assets/count.jpg';
+import moonBoy from './assets/moon-boy.jpg';
 
 
 const berserkCharacters = [
@@ -143,6 +158,105 @@ const berserkCharacters = [
         src: farnese,
         clicked: false
     },
+    {
+        id: uniqid(),
+        name: "godot",
+        src: godot,
+        clicked: false
+    },
+    {
+        id: uniqid(),
+        name: "grunbeld",
+        src: grunbeld,
+        clicked: false
+    },
+    {
+        id: uniqid(),
+        name: "irvine",
+        src: irvine,
+        clicked: false
+    },
+    {
+        id: uniqid(),
+        name: "monarch",
+        src: monarch,
+        clicked: false
+
+    },
+    {
+        id: uniqid(),
+        name: "rodrick",
+        src: rodrick,
+        clicked: false
+    },
+    {
+        id: uniqid(),
+        name: "ganishka",
+        src: ganishka,
+        clicked: false
+    },
+    {
+        id: uniqid(),
+        name: "molda",
+        src: molda,
+        clicked: false
+    },
+    {
+        id: uniqid(),
+        name: "locus",
+        src: locus,
+        clicked: false
+    },
+    {
+        id: uniqid(),
+        name: "rakshas",
+        src: rakshas,
+        clicked: false
+    },
+    {
+        id: uniqid(),
+        name: "corkus",
+        src: corkus,
+        clicked: false
+    },
+    {
+        id: uniqid(),
+        name: "conrad",
+        src: conrad,
+        clicked: false
+    },
+    {
+        id: uniqid(),
+        name: "ubik",
+        src: ubik,
+        clicked: false
+    },
+    {
+        id: uniqid(),
+        name: "rosine",
+        src: rosine,
+        clicked: false
+    },
+    {
+        id: uniqid(),
+        name: "snake lord",
+        src: snakeLord,
+        clicked: false
+    },
+    {
+        id: uniqid(),
+        name: "count",
+        src: count,
+        clicked: false
+    },
+    {
+        id: uniqid(),
+        name: "moonlight boy",
+        src: moonBoy,
+        clicked: false
+
+    },
+
 
 
 ];

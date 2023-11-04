@@ -59,7 +59,7 @@ function App() {
     const randomCharacters = new Set();
 
     while (randomCharacters.size < gameLevel[0]) {
-      const randNum = Math.floor(Math.random() * 20);
+      const randNum = Math.floor(Math.random() * 36);
       randomCharacters.add(berserkCharacters[randNum]);
     }
 
