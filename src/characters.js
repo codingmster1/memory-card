@@ -15,7 +15,7 @@ import femto from './assets/femto1.png';
 import gutsArmor from './assets/berserk-guts-armor.png';
 import beast from './assets/beast-of-darkness.webp';
 import puck from './assets/puck.png';
-import schreike from './assets/Schierke_Render.webp';
+import schierke from './assets/Schierke_Render.webp';
 import isidro from './assets/Isidro.webp';
 import serpico from './assets/Serpico_wind.webp';
 import farnese from './assets/Farnese_Manga.webp';
@@ -24,7 +24,7 @@ import grunbeld from './assets/Grunbeld.webp';
 import irvine from './assets/Irvine_Manga.webp';
 import monarch from './assets/monarch.jpg';
 import rodrick from './assets/rodrick.jpg';
-import ganishka from './assets/ganishka.jpeg';
+import daiba from './assets/ganishka.jpeg';
 import molda from './assets/molda.jpg';
 import locus from './assets/locus.png';
 import rakshas from './assets/rakshas.webp';
@@ -35,6 +35,9 @@ import rosine from './assets/rosine.jpeg';
 import snakeLord from './assets/snake-lord.webp';
 import count from './assets/count.jpg';
 import moonBoy from './assets/moon-boy.jpg';
+import midlandKing from './assets/kingmidland.jpg';
+import charlotte from './assets/charlotte.png';
+import ganishka from './assets/Ganishka1.webp';
 
 
 const berserkCharacters = [
@@ -136,8 +139,8 @@ const berserkCharacters = [
     },
     {
         id: uniqid(),
-        name: "schreike",
-        src: schreike,
+        name: "schierke",
+        src: schierke,
         clicked: false
     },
     {
@@ -191,8 +194,8 @@ const berserkCharacters = [
     },
     {
         id: uniqid(),
-        name: "ganishka",
-        src: ganishka,
+        name: "daiba",
+        src: daiba,
         clicked: false
     },
     {
@@ -256,6 +259,25 @@ const berserkCharacters = [
         clicked: false
 
     },
+    {
+        id: uniqid(),
+        name: "Midland King",
+        src: midlandKing,
+        clicked: false
+    },
+    {
+        id: uniqid(),
+        name: "charlotte",
+        src: charlotte,
+        clicked: false
+    },
+    {
+        id: uniqid(),
+        name: "ganishka",
+        src: ganishka,
+        clicked: false
+    },
+
 
 
 
